@@ -1,28 +1,42 @@
-c:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
-c:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\bin\Debug\net7.0\DataAccess.dll
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\bin\Debug\net7.0\DataAccess.pdb
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.dll
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
-C:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.pdb
-c:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
-c:\Users\Usuario\Desktop\desarrollo2\Ecommerce.net7\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\bin\Debug\net7.0\DataAccess.dll
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\bin\Debug\net7.0\DataAccess.pdb
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.dll
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.pdb
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
-c:\Users\Usuario\Desktop\RepoDesarrollo\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+c:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+c:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/bin/Debug/net7.0/DataAccess.runtimeconfig.json
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/bin/Debug/net7.0/DataAccess.dll
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.dll
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+C:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+c:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/DataAccess.genruntimeconfig.cache
+c:/Users/Usuario/Desktop/desarrollo2/Ecommerce.net7/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/bin/Debug/net7.0/DataAccess.runtimeconfig.json
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/bin/Debug/net7.0/DataAccess.dll
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.dll
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/DataAccess.genruntimeconfig.cache
+c:/Users/Usuario/Desktop/RepoDesarrollo/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/bin/Debug/net7.0/DataAccess.deps.json
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/bin/Debug/net7.0/DataAccess.runtimeconfig.json
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/bin/Debug/net7.0/DataAccess.dll
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/bin/Debug/net7.0/DataAccess.pdb
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfoInputs.cache
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.AssemblyInfo.cs
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.dll
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.pdb
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/DataAccess.genruntimeconfig.cache
+/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll
