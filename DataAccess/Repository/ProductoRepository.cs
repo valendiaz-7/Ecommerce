@@ -9,18 +9,18 @@ namespace DataAccess.Repository
 {
     public class ProductoRepository : GenericRepository<Producto>, IProductoRepository
     {
-        public ProductoRepository(MydbContext context) : base(context)
+        public ProductoRepository(EcommercedbContext context) : base(context)
         {
         }
 
         // public IList<Producto> GetProductosByCategoria(int idCategoria)
         // {
-        //     return _context.Productos.Where(p => p.IdCategoria == idCategoria).ToList();
+        //     return _context.Productos.Where(p => p.idCategoria == idCategoria).ToList();
         // }
 
         // public IList<Producto> GetProductosByCategoriaAndNombre(int idCategoria, string nombre)
         // {
-        //     return _context.Productos.Where(p => p.IdCategoria == idCategoria && p.Nombre.Contains(nombre)).ToList();
+        //     return _context.Productos.Where(p => p.idCategoria == idCategoria && p.Nombre.Contains(nombre)).ToList();
         // }
 
         // public IList<Producto> GetProductosByNombre(string nombre)
@@ -40,7 +40,7 @@ namespace DataAccess.Repository
 
         // public IList<Producto> GetProductosByPrecioAndCategoria(decimal precio, int idCategoria)
         // {
-        //     return _context.Productos.Where(p => p.Precio == precio && p.IdCategoria == idCategoria).ToList();
+        //     return _context.Productos.Where(p => p.Precio == precio && p.idCategoria == idCategoria).ToList();
         // }
 
         

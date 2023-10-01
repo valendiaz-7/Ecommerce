@@ -5,13 +5,13 @@ namespace DataAccess.Entities;
 
 public partial class Producto
 {
-    public int Id { get; set; }
+    public int IdProducto { get; set; }
 
     public string? Descripcion { get; set; }
 
-    public string Nombre { get; set; } = null!;
+    public int idCategoria { get; set; }
 
-    public int? IdCategoria { get; set; }
+    public virtual Categoria idCategoriaNavigation { get; set; } = null!;
 
-    public virtual Categoria? IdCategoriaNavigation { get; set; }
+    public virtual ICollection<Publicacion> Publicacion { get; set; } = new List<Publicacion>();
 }

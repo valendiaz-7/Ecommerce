@@ -11,7 +11,7 @@ namespace DataAccess.Repository
 
         
         //que hace esta linea
-        public CategoriaRepository(MydbContext _context) : base(_context)
+        public CategoriaRepository(EcommercedbContext _context) : base(_context)
         {
         }
 
@@ -21,10 +21,10 @@ namespace DataAccess.Repository
             return await _context.Categoria.Include(c => c.Producto).ToListAsync();
         }
 
-        public Task<int> GetCantidadProductosByCategoria(int idCategoria)
+        public Task<int> GetCantidadProductosByCategoria(int id)
         {
             //busco la categoria por id y cuento la cantidad de productos que tiene
-            return _context.Categoria.Where(c => c.Id == idCategoria).Select(c => c.Producto.Count).FirstOrDefaultAsync();
+            return _context.Categoria.Where(c => c.idCategoria == id).Select(c => c.Producto.Count).FirstOrDefaultAsync();
 
         }
     }

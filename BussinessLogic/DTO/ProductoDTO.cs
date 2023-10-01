@@ -9,9 +9,9 @@ namespace BussinessLogic.DTO
 
         public string? Descripcion { get; set; }
 
-        public int? IdCategoria { get; set; }
+        public int? idCategoria { get; set; }
 
-        // public virtual CategoriaDTO? IdCategoriaNavigation { get; set; }
+        // public virtual CategoriaDTO? idCategoriaNavigation { get; set; }
     }
 }
 

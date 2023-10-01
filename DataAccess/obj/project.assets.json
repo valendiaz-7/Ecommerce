@@ -2681,26 +2681,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "/Users/germansalinas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\RepoDesarrollo\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "c:\\Users\\Usuario\\Desktop\\RepoDesarrollo\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Usuario\\Desktop\\RepoDesarrollo\\DataAccess\\obj\\",
+      "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
+      "packagesPath": "/Users/germansalinas/.nuget/packages/",
+      "outputPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/germansalinas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2754,7 +2752,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }

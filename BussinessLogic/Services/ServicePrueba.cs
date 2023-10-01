@@ -129,7 +129,7 @@ namespace BussinessLogic.Services
 
 //     foreach (var item in categoriaDTO)
 //     {
-//         int cantidadProductos = _dbContext.Producto.Where(x => x.IdCategoria == item.Id).Count();
+//         int cantidadProductos = _dbContext.Producto.Where(x => x.idCategoria == item.Id).Count();
 //         item.CantidadProductos = cantidadProductos;
 //     }
 
