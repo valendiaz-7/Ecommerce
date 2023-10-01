@@ -5,7 +5,7 @@ namespace DataAccess.Entities;
 
 public partial class Categoria
 {
-    public int idCategoria { get; set; }
+    public int IdCategoria { get; set; }
 
     public string Descripcion { get; set; } = null!;
 

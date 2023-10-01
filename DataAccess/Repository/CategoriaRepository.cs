@@ -24,7 +24,7 @@ namespace DataAccess.Repository
         public Task<int> GetCantidadProductosByCategoria(int id)
         {
             //busco la categoria por id y cuento la cantidad de productos que tiene
-            return _context.Categoria.Where(c => c.idCategoria == id).Select(c => c.Producto.Count).FirstOrDefaultAsync();
+            return _context.Categoria.Where(c => c.IdCategoria == id).Select(c => c.Producto.Count).FirstOrDefaultAsync();
 
         }
     }

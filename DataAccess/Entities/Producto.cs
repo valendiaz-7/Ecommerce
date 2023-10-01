@@ -9,9 +9,9 @@ public partial class Producto
 
     public string? Descripcion { get; set; }
 
-    public int idCategoria { get; set; }
+    public int IdCategoria { get; set; }
 
-    public virtual Categoria idCategoriaNavigation { get; set; } = null!;
+    public virtual Categoria IdCategoriaNavigation { get; set; } = null!;
 
     public virtual ICollection<Publicacion> Publicacion { get; set; } = new List<Publicacion>();
 }

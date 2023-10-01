@@ -58,7 +58,7 @@ namespace BussinessLogic.Services
             {
                 // item.CantidadProductos = item.Producto.Count();
 
-                    item.CantidadProductos = await _unitOfWork.CategoriaRepository.GetCantidadProductosByCategoria(item.Id);
+                    item.CantidadProductos = await _unitOfWork.CategoriaRepository.GetCantidadProductosByCategoria(item.IdCategoria);
             }
 
             return categoriaDTO;

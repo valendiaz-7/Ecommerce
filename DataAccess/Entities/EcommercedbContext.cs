@@ -19,6 +19,8 @@ public partial class EcommercedbContext : DbContext
 
     public virtual DbSet<Domicilio> Domicilio { get; set; }
 
+    public virtual DbSet<EfmigrationsHistory> EfmigrationsHistory { get; set; }
+
     public virtual DbSet<Envio> Envio { get; set; }
 
     public virtual DbSet<Estadopedido> Estadopedido { get; set; }
@@ -45,11 +47,11 @@ public partial class EcommercedbContext : DbContext
     {
         modelBuilder.Entity<Categoria>(entity =>
         {
-            entity.HasKey(e => e.idCategoria).HasName("PRIMARY");
+            entity.HasKey(e => e.IdCategoria).HasName("PRIMARY");
 
             entity.ToTable("categoria");
 
-            entity.Property(e => e.idCategoria).HasColumnName("idCategoria");
+            entity.Property(e => e.IdCategoria).HasColumnName("idCategoria");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(45)
                 .HasColumnName("descripcion");
@@ -57,6 +59,7 @@ public partial class EcommercedbContext : DbContext
 
         modelBuilder.Entity<Domicilio>(entity =>
         {
+            
             entity.HasKey(e => e.IdDomicilio).HasName("PRIMARY");
 
             entity.ToTable("domicilio");
@@ -74,6 +77,16 @@ public partial class EcommercedbContext : DbContext
                 .HasForeignKey(d => d.IdUsuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("id_usuario_FK2");
+        });
+
+        modelBuilder.Entity<EfmigrationsHistory>(entity =>
+        {
+            entity.HasKey(e => e.MigrationId).HasName("PRIMARY");
+
+            entity.ToTable("__EFMigrationsHistory");
+
+            entity.Property(e => e.MigrationId).HasMaxLength(150);
+            entity.Property(e => e.ProductVersion).HasMaxLength(32);
         });
 
         modelBuilder.Entity<Envio>(entity =>
@@ -144,7 +157,7 @@ public partial class EcommercedbContext : DbContext
 
             entity.HasIndex(e => e.IdTipoEntrega, "id_tipo_entrega_FK_idx");
 
-            entity.HasIndex(e => e.IdUsuario, "id_usuario_FK_idx");
+            entity.HasIndex(e => e.IdUsuario, "id_usuario_FK_idx1");
 
             entity.Property(e => e.IdPedido).HasColumnName("idPedido");
             entity.Property(e => e.Cantidad).HasColumnName("cantidad");
@@ -183,16 +196,16 @@ public partial class EcommercedbContext : DbContext
 
             entity.ToTable("producto");
 
-            entity.HasIndex(e => e.idCategoria, "id_categoria_FK_idx");
+            entity.HasIndex(e => e.IdCategoria, "id_categoria_FK_idx");
 
             entity.Property(e => e.IdProducto).HasColumnName("idProducto");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(45)
                 .HasColumnName("descripcion");
-            entity.Property(e => e.idCategoria).HasColumnName("id_categoria");
+            entity.Property(e => e.IdCategoria).HasColumnName("id_categoria");
 
-            entity.HasOne(d => d.idCategoriaNavigation).WithMany(p => p.Producto)
-                .HasForeignKey(d => d.idCategoria)
+            entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Producto)
+                .HasForeignKey(d => d.IdCategoria)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("id_categoria_FK");
         });
