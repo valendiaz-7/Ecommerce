@@ -10,7 +10,7 @@ namespace BussinessLogic.DTO
         public string? Descripcion { get; set; }
 
 
-        public virtual ICollection<ProductoDTO> Producto { get; set; } = new List<ProductoDTO>();
+        // public virtual ICollection<ProductoDTO> Producto { get; set; } = new List<ProductoDTO>();
 
         //quiero que me devuelva la cantidad de productos que tiene la categoria
         public int CantidadProductos { get; set; }

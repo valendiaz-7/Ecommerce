@@ -33,10 +33,22 @@ namespace DataAccess.Repository
 
         public async Task BeginTransactionAsync()
         {
-            if (_transaction == null)
+            try
             {
-                _transaction = await _context.Database.BeginTransactionAsync();
+                if (_transaction == null)
+                {
+                    _transaction = await _context.Database.BeginTransactionAsync();
+                }
+
             }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+                _transaction?.Dispose();
+                _transaction = null;
+                
+            }
+
+
         }
 
         public async Task CommitAsync()
@@ -68,7 +80,7 @@ namespace DataAccess.Repository
             _context.Dispose();
         }
 
-          public async Task RollbackAsync()
+        public async Task RollbackAsync()
         {
             try
             {

@@ -12,7 +12,7 @@ namespace DataAccess.IRepository
     {
         
         //hago una interfaz de la clase producto para que el repositorio de categoria tenga sus propios metodos especificos
-        Task<IEnumerable<Categoria>> GetAllCategoriasProductos();
+        Task<IList<Categoria>> GetAllCategoriasProductos();
         Task<int> GetCantidadProductosByCategoria(int idCategoria);
 
 

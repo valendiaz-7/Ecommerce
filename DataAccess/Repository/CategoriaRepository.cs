@@ -15,7 +15,7 @@ namespace DataAccess.Repository
         {
         }
 
-        public async Task<IEnumerable<Categoria>> GetAllCategoriasProductos()
+        public async Task<IList<Categoria>> GetAllCategoriasProductos()
         {
             //busco todas las categorias con el producto incluido
             return await _context.Categoria.Include(c => c.Producto).ToListAsync();
