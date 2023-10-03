@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/API-Ecommerce.csproj": {}
+    "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj": {}
   },
   "projects": {
-    "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/API-Ecommerce.csproj": {
+    "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+        "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
         "projectName": "API-Ecommerce",
-        "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+        "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
         "packagesPath": "/Users/germansalinas/.nuget/packages/",
-        "outputPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/",
+        "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/germansalinas/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/BussinessLogic.csproj": {
-                "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/BussinessLogic.csproj"
+              "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj": {
+                "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj"
               }
             }
           }
@@ -43,6 +43,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoWrapper.Core": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -93,14 +97,14 @@
         }
       }
     },
-    "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/BussinessLogic.csproj": {
+    "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/BussinessLogic.csproj",
+        "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj",
         "projectName": "BussinessLogic",
-        "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/BussinessLogic.csproj",
+        "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj",
         "packagesPath": "/Users/germansalinas/.nuget/packages/",
-        "outputPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/BussinessLogic/obj/",
+        "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/germansalinas/.nuget/NuGet/NuGet.Config"
@@ -115,8 +119,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj": {
-                "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj"
+              "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/DataAccess.csproj"
               }
             }
           }
@@ -156,14 +160,14 @@
         }
       }
     },
-    "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj": {
+    "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
+        "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/germansalinas/.nuget/packages/",
-        "outputPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/",
+        "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/germansalinas/.nuget/NuGet/NuGet.Config"

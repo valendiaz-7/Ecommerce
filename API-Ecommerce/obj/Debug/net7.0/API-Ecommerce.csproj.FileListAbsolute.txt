@@ -1,146 +1,75 @@
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/appsettings.Development.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/appsettings.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.exe
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.deps.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.runtimeconfig.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.pdb
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Google.Protobuf.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Humanizer.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/K4os.Hash.xxHash.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Mapster.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Mapster.Core.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.OpenApi.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Mono.TextTemplating.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/MySql.Data.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/MySqlConnector.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/BouncyCastle.Crypto.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.CodeDom.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.Drawing.Common.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.Security.Permissions.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/System.Windows.Extensions.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/ZstdSharp.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/DataAccess.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.pdb
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/bin/Debug/net7.0/DataAccess.pdb
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.AssemblyReference.cache
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfoInputs.cache
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfo.cs
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CoreCompileInputs.cache
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cs
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cache
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.API-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.build.API-Ecommerce.props
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.API-Ecommerce.props
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.API-Ecommerce.props
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets.pack.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets.build.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/staticwebassets.development.json
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/scopedcss/bundle/API-Ecommerce.styles.css
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CopyComplete
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/refint/API-Ecommerce.dll
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.pdb
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.genruntimeconfig.cache
-c:/Users/Usuario/Desktop/RepoDesarrollo/API-Ecommerce/obj/Debug/net7.0/ref/API-Ecommerce.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.AssemblyReference.cache
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfoInputs.cache
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfo.cs
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CoreCompileInputs.cache
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cs
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cache
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/refint/API-Ecommerce.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.pdb
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/appsettings.Development.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/appsettings.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.deps.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.runtimeconfig.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.pdb
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Google.Protobuf.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Humanizer.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Hash.xxHash.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mapster.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mapster.Core.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.OpenApi.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mono.TextTemplating.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySql.Data.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySqlConnector.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BouncyCastle.Crypto.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.CodeDom.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Drawing.Common.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Security.Permissions.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Windows.Extensions.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/ZstdSharp.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/DataAccess.dll
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.pdb
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/bin/Debug/net7.0/DataAccess.pdb
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.API-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.build.API-Ecommerce.props
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.API-Ecommerce.props
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.API-Ecommerce.props
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.pack.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.build.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.development.json
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/scopedcss/bundle/API-Ecommerce.styles.css
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CopyComplete
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.genruntimeconfig.cache
-/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/obj/Debug/net7.0/ref/API-Ecommerce.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/appsettings.Development.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/appsettings.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.deps.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.runtimeconfig.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/API-Ecommerce.pdb
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Humanizer.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mapster.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mapster.Core.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySql.Data.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySql.EntityFrameworkCore.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/MySqlConnector.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BouncyCastle.Crypto.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.CodeDom.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/ZstdSharp.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/DataAccess.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/BussinessLogic.pdb
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/DataAccess.pdb
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.AssemblyReference.cache
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfoInputs.cache
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.AssemblyInfo.cs
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CoreCompileInputs.cache
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cs
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.MvcApplicationPartsAssemblyInfo.cache
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.API-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.build.API-Ecommerce.props
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.API-Ecommerce.props
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.API-Ecommerce.props
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.build.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/staticwebassets.development.json
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/scopedcss/bundle/API-Ecommerce.styles.css
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.csproj.CopyComplete
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/refint/API-Ecommerce.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.pdb
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/API-Ecommerce.genruntimeconfig.cache
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/Debug/net7.0/ref/API-Ecommerce.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/AutoWrapper.dll
+/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/bin/Debug/net7.0/Newtonsoft.Json.dll
