@@ -4760,11 +4760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+      "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/API-Ecommerce/API-Ecommerce.csproj",
       "projectName": "API-Ecommerce",
-      "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+      "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/API-Ecommerce/API-Ecommerce.csproj",
       "packagesPath": "/Users/germansalinas/.nuget/packages/",
-      "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/obj/",
+      "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/API-Ecommerce/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/germansalinas/.nuget/NuGet/NuGet.Config"
@@ -4780,8 +4780,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj": {
-              "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/BussinessLogic/BussinessLogic.csproj"
+            "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/BussinessLogic/BussinessLogic.csproj": {
+              "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/BussinessLogic/BussinessLogic.csproj"
             }
           }
         }

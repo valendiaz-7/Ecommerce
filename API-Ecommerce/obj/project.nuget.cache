@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTuNxBP3NopF2XcCG+QNCWK+RvScdbz54pvYBSALdFwN0wAvVWjW/Wtw+l4oONwrcv3PEbRZfRbSUN14r2uNrQ==",
+  "dgSpecHash": "CUp2bmU2/hO+1a9dt2JnuX3NhDfrh/U2bsWNHMQ7gffhXefcFE6PH3mN/Y9tmaDF9/VFesRpfEwywkO4usXiow==",
   "success": true,
-  "projectFilePath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+  "projectFilePath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/API-Ecommerce/API-Ecommerce.csproj",
   "expectedPackageFiles": [
     "/Users/germansalinas/.nuget/packages/autowrapper.core/4.5.1/autowrapper.core.4.5.1.nupkg.sha512",
     "/Users/germansalinas/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",

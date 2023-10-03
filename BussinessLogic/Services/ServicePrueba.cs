@@ -21,18 +21,28 @@ namespace BussinessLogic.Services
 
         public async Task<IList<CategoriaDTO>> GetAllCategorias()
         {
-            IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetAll();
-
-            IList<CategoriaDTO> categoriaDTO = categorias.Adapt<IList<CategoriaDTO>>();
-
-            foreach (var item in categoriaDTO)
+            try
             {
-                // item.CantidadProductos = item.Producto.Count();
+                IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetAll();
 
-                item.CantidadProductos = await _unitOfWork.CategoriaRepository.GetCantidadProductosByCategoria(item.IdCategoria);
+                IList<CategoriaDTO> categoriaDTO = categorias.Adapt<IList<CategoriaDTO>>();
+
+
+                foreach (var item in categoriaDTO)
+                {
+                    // item.CantidadProductos = item.Producto.Count();
+
+                    item.CantidadProductos = await _unitOfWork.CategoriaRepository.GetCantidadProductosByCategoria(item.IdCategoria);
+                }
+
+                return categoriaDTO;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
 
-            return categoriaDTO;
 
         }
 
@@ -95,7 +105,7 @@ namespace BussinessLogic.Services
         public async Task<IList<CategoriaDTO>> BuscarCategorias(string descripcion)
         {
             //Puedo Buscar por si contiene el nombre o podria buscar por is es igual al nombre
-            // IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetByCriteria(x => x.Descripcion.Contains(nombre));
+            // IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetByCriteria(x => x.Descripcion.Contains(descripcion));
 
             IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetByCriteria(x => x.Descripcion == descripcion);
 
