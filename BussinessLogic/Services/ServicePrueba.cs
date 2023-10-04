@@ -45,6 +45,11 @@ namespace BussinessLogic.Services
 
 
         }
+        public async Task<CategoriaDTO> GetCategoriaById(int id)
+        {
+            return (await _unitOfWork.CategoriaRepository.GetById(id)).Adapt<CategoriaDTO>();
+           
+        }
 
         public async Task<CategoriaDTO> PostCategoria(CategoriaDTO categoria)
         {

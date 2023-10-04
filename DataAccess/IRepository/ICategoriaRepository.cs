@@ -15,6 +15,9 @@ namespace DataAccess.IRepository
         Task<IList<Categoria>> GetAllCategoriasProductos();
         Task<int> GetCantidadProductosByCategoria(int idCategoria);
 
+        Task<Categoria?> GetByIdCategoria(int idCategoria);
+
 
     } 
+    
 }

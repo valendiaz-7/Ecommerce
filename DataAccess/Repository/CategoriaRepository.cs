@@ -9,7 +9,7 @@ namespace DataAccess.Repository
     public class CategoriaRepository : GenericRepository<Categoria>, ICategoriaRepository
     {
 
-        
+
         //que hace esta linea
         public CategoriaRepository(EcommercedbContext _context) : base(_context)
         {
@@ -27,6 +27,16 @@ namespace DataAccess.Repository
             return _context.Categoria.Where(c => c.IdCategoria == id).Select(c => c.Producto.Count).FirstOrDefaultAsync();
 
         }
+
+        public async Task<Categoria?> GetByIdCategoria(int id)
+        {
+            //esto tambien lo implementa haciendo la consulta sql
+            return await _context.Categoria.FirstOrDefaultAsync(x => x.IdCategoria == id);
+
+
+        }
+
+
     }
 }
 

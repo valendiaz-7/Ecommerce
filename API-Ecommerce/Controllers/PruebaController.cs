@@ -48,6 +48,29 @@ namespace API_Ecommerce.Controllers
 
         }
 
+        [HttpGet]
+        [Route("/categoria/{id}")]
+        public async Task<ApiResponse> GetCategoriaById(int id)
+        {
+            try
+            {
+                CategoriaDTO categoria = await _service.GetCategoriaById(id);
+                ApiResponse response = new ApiResponse(new { data = categoria });
+                return response;
+            }
+            catch (Exception ex)
+            {
+                while (ex.InnerException != null)
+                {
+                    ex = ex.InnerException;
+                }
+                throw new ApiException(ex);
+            }
+
+
+        }
+
+
         // POST api/values
 
         //Metodo para insertar una categoria

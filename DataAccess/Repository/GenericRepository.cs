@@ -30,8 +30,10 @@ namespace DataAccess.Repository
         }
 
         //Metodo para traer un dato de un tipo de objeto por id
-        public async Task<T> GetById(int id)
+        public async Task<T?> GetById(int id)
         {
+
+            //Esto lo hace por la base, hace el where de la base confirmado
             var entity = await _context.Set<T>().FindAsync(id);
 
             if (entity == null)
