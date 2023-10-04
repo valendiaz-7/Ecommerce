@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IaE7u2inejYfy+SkEmDTJkdjkIuOd0V9hEbyIdkSc5d4rloiVWafjnojlNYHfDyCfbISl8pI5+jJYEdZSLbgSA==",
+  "dgSpecHash": "KqDhIrOXRywep2TQSK0By6kwGQK0bKIN0akvW8PVCn8VT1f6RmGOrApl9o8OjLCK9x48Qgf6XAaCqF2Uxk3sIA==",
   "success": true,
-  "projectFilePath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/API-Ecommerce/API-Ecommerce.csproj",
+  "projectFilePath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/API-Ecommerce/API-Ecommerce.csproj",
   "expectedPackageFiles": [
     "/Users/germansalinas/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",
     "/Users/germansalinas/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

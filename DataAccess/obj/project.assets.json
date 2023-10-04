@@ -2686,11 +2686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
+      "projectUniqueName": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/DataAccess/DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/DataAccess.csproj",
+      "projectPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/DataAccess/DataAccess.csproj",
       "packagesPath": "/Users/germansalinas/.nuget/packages/",
-      "outputPath": "/Users/germansalinas/Desktop/carpeta sin título/Ecommerce/DataAccess/obj/",
+      "outputPath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/germansalinas/.nuget/NuGet/NuGet.Config"
