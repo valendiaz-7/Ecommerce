@@ -23,7 +23,7 @@ namespace BussinessLogic.Services
         {
             try
             {
-                IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetAll();
+                IList<Categoria> categorias = (await _unitOfWork.CategoriaRepository.GetAll()).OrderByDescending(x => x.FechaDesde).ToList();
 
                 IList<CategoriaDTO> categoriaDTO = categorias.Adapt<IList<CategoriaDTO>>();
 
@@ -59,6 +59,7 @@ namespace BussinessLogic.Services
                 await _unitOfWork.BeginTransactionAsync();
 
                 Categoria categoriaEntity = categoria.Adapt<Categoria>();
+                categoriaEntity.FechaDesde = DateTime.Now;
                 categoriaEntity = await _unitOfWork.CategoriaRepository.Insert(categoriaEntity);
 
 
@@ -81,7 +82,7 @@ namespace BussinessLogic.Services
             bool borrado = await _unitOfWork.CategoriaRepository.Delete(id);
         }
 
-        public async Task<CategoriaDTO> EditarCategoria(int id, string value)
+        public async Task<CategoriaDTO> EditarCategoria(CategoriaDTO cate)
         {
 
             await _unitOfWork.BeginTransactionAsync();
@@ -89,11 +90,12 @@ namespace BussinessLogic.Services
             // IList<Categoria> categoriasDescripcion = await _unitOfWork.CategoriaRepository.GetByCriteria(x => x.Descripcion == value);
             // IList<Producto> categoriasId = await _unitOfWork.ProductoRepository.GetByCriteria(x => x.IdCategoriaNavigation.Descripcion == value);
 
-            Categoria categoria = await _unitOfWork.CategoriaRepository.GetById(id);
+            Categoria? categoria = await _unitOfWork.CategoriaRepository.GetById(cate.IdCategoria);
 
             if (categoria != null)
             {
-                categoria.Descripcion = value;
+                categoria.Descripcion = cate.Descripcion;
+                categoria.Nombre = cate.Nombre;
                 await _unitOfWork.CategoriaRepository.Update(categoria);
 
                 await _unitOfWork.CommitAsync();

@@ -52,6 +52,11 @@ namespace API_Ecommerce.Controllers
         [Route("/categoria/{id}")]
         public async Task<ApiResponse> GetCategoriaById(int id)
         {
+            if (id == 0)
+            {
+                throw new ApiException("Debe ingresar un id de categoria valido");
+            }
+
             try
             {
                 CategoriaDTO categoria = await _service.GetCategoriaById(id);
@@ -88,16 +93,18 @@ namespace API_Ecommerce.Controllers
 
         // PUT api/values/5
         //Metodo para editar una categoria
-        [HttpPut("{id}")]
-        public async Task<CategoriaDTO> Put(int id, [FromBody] string value)
+        [HttpPut]
+        [Route("/categoria/{id}")]
+        public async Task<CategoriaDTO> Put(int id, [FromBody] CategoriaDTO categoria)
         {
-            CategoriaDTO categoriaEditada = await _service.EditarCategoria(id, value);
+            CategoriaDTO categoriaEditada = await _service.EditarCategoria(categoria);
             return categoriaEditada;
         }
 
         // DELETE api/values/5
         //Metodo para eliminar una categoria, eliminacion fisica
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("/categoria/{id}")]
         public async Task Delete(int id)
         {
             await _service.DeleteCategoria(id);
