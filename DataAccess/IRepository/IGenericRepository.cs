@@ -15,9 +15,11 @@ namespace DataAccess.IRepository
         Task<T?> GetById(int id);
         Task<T> Insert(T entity);
         Task<T> Update(T entity);
-        Task<bool> Delete(int id);
+        Task<bool> HardDelete(int id);
+        Task<bool> SoftDelete(int id);
         Task<IList<T>> GetByCriteria(Expression<Func<T, bool>> predicate);
         Task<IList<T>> GetByCriteriaMemory(Expression<Func<T, bool>> predicate);
+        
 
 
 

@@ -22,8 +22,11 @@ namespace BussinessLogic.Services
         public async Task<IList<CategoriaDTO>> GetAllCategorias()
         {
             try
-            {
-                IList<Categoria> categorias = (await _unitOfWork.CategoriaRepository.GetAll()).OrderByDescending(x => x.FechaDesde).ToList();
+            {   
+                // IList<Categoria> categorias = (await _unitOfWork.CategoriaRepository.GetAll()).OrderByDescending(x => x.FechaDesde).ToList();
+                //Traigo todas las categorias que no tengan fecha de baja
+                IList<Categoria> categorias = await _unitOfWork.CategoriaRepository.GetByCriteria(x => x.FechaHasta == null);
+
 
                 IList<CategoriaDTO> categoriaDTO = categorias.Adapt<IList<CategoriaDTO>>();
 
@@ -48,7 +51,7 @@ namespace BussinessLogic.Services
         public async Task<CategoriaDTO> GetCategoriaById(int id)
         {
             return (await _unitOfWork.CategoriaRepository.GetById(id)).Adapt<CategoriaDTO>();
-           
+
         }
 
         public async Task<CategoriaDTO> PostCategoria(CategoriaDTO categoria)
@@ -80,7 +83,7 @@ namespace BussinessLogic.Services
 
         public async Task DeleteCategoria(int id)
         {
-            bool borrado = await _unitOfWork.CategoriaRepository.Delete(id);
+            bool borrado = await _unitOfWork.CategoriaRepository.SoftDelete(id);
         }
 
         public async Task<CategoriaDTO> EditarCategoria(CategoriaDTO cate)
