@@ -7,12 +7,10 @@ namespace BussinessLogic.DTO
     {
     public int IdPublicacion { get; set; }
 
-
     public float? Precio { get; set; }
 
     public int Stock { get; set; }
-
-    public virtual Producto IdProductoNavigation { get; set; } = null!;
+    public ProductoDTO IdProductoNavigation { get; set; } = null!; 
 
     }
 }

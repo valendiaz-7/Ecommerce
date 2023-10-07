@@ -10,7 +10,7 @@ namespace DataAccess.IRepository
     // Esta interfaz es para que la implementen los repositorios de cada entidad, generico para que no se repita codigo
     public interface IPublicacionRepository : IGenericRepository<Publicacion>
     {
-
+        Task<IList<Publicacion>> GetAllPublicaciones();  
 
     } 
 }

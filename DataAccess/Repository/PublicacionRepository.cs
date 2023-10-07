@@ -11,6 +11,18 @@ namespace DataAccess.Repository
         {
         }
 
+        public async Task<IList<Publicacion>> GetAllPublicaciones()
+        {
+            try
+            {
+                return await _context.Publicacion.Include(x => x.IdProductoNavigation).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         
 
     }
