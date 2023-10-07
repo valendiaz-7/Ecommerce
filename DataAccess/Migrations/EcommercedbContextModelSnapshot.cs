@@ -245,6 +245,9 @@ namespace DataAccess.Migrations
                         .HasColumnType("int")
                         .HasColumnName("id_categoria");
 
+                    b.Property<string>("UrlImagen")
+                        .HasColumnType("longtext");
+
                     b.HasKey("IdProducto")
                         .HasName("PRIMARY");
 

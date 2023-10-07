@@ -29,6 +29,7 @@ builder.Services.AddDbContext<EcommercedbContext>(options => options.UseMySQL(bu
 
 builder.Services.AddScoped<ServiceCategoria>();
 builder.Services.AddScoped<ServiceProducto>();
+builder.Services.AddScoped<ServicePublicacion>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

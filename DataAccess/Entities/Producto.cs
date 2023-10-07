@@ -10,6 +10,7 @@ public partial class Producto
     public string? Descripcion { get; set; }
 
     public int IdCategoria { get; set; }
+    public string? UrlImagen { get; set; }
 
     public DateTime FechaAlta { get; set; }
 
