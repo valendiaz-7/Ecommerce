@@ -12,14 +12,14 @@ using AutoWrapper.Wrappers;
 namespace API_Ecommerce.Controllers
 {
     [Route("api/[controller]")]
-    public class PruebaController : Controller
+    public class CategoriaController : Controller
     {
 
         //Instancio el service que vamos a usar
-        private ServicePrueba _service;
+        private ServiceCategoria _service;
 
         //Inyecto el service por el constructor
-        public PruebaController(ServicePrueba service)
+        public CategoriaController(ServiceCategoria service)
         {
             _service = service;
         }

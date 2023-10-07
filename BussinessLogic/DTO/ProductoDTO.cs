@@ -5,7 +5,7 @@ namespace BussinessLogic.DTO
 {
 	public class ProductoDTO
 	{
-        public int Id { get; set; }
+        public int IdProducto { get; set; }
 
         public string? Descripcion { get; set; }
 

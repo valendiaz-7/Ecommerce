@@ -27,7 +27,8 @@ builder.Services.AddDbContext<EcommercedbContext>(options => options.UseMySQL(bu
 //La diferencia entre AddScoped y AddTransient es que el AddScoped crea un contexto por cada request y el AddTransient crea un contexto por cada vez que se lo llama
 //El AddSingleton es para que se cree un contexto por una unica vez y se reutilice en todos los request
 
-builder.Services.AddScoped<ServicePrueba>();
+builder.Services.AddScoped<ServiceCategoria>();
+builder.Services.AddScoped<ServiceProducto>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

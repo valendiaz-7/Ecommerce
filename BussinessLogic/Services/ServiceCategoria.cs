@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BussinessLogic.Services
 {
-    public class ServicePrueba
+    public class ServiceCategoria
     {
         //Instancio el UnitOfWork que vamos a usar
         private readonly IUnitOfWork _unitOfWork;
 
         //Inyecto el UnitOfWork por el constructor, esto se hace para que se cree un nuevo contexto por cada vez que se llame a la clase
-        public ServicePrueba(IUnitOfWork unitOfWork)
+        public ServiceCategoria(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -60,6 +60,7 @@ namespace BussinessLogic.Services
 
                 Categoria categoriaEntity = categoria.Adapt<Categoria>();
                 categoriaEntity.FechaDesde = DateTime.Now;
+                categoriaEntity.FechaModificacion = DateTime.Now;
                 categoriaEntity = await _unitOfWork.CategoriaRepository.Insert(categoriaEntity);
 
 
@@ -94,8 +95,7 @@ namespace BussinessLogic.Services
 
             if (categoria != null)
             {
-                categoria.Descripcion = cate.Descripcion;
-                categoria.Nombre = cate.Nombre;
+                categoria.FechaModificacion = DateTime.Now;
                 await _unitOfWork.CategoriaRepository.Update(categoria);
 
                 await _unitOfWork.CommitAsync();
