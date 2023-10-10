@@ -12,5 +12,9 @@ namespace DataAccess.IRepository
     {
         Task<IList<Publicacion>> GetAllPublicaciones();  
 
+        Task<Publicacion> GetPublicacionById(int id);
+
     } 
+
+    
 }

@@ -23,7 +23,21 @@ namespace DataAccess.Repository
             }
         }
 
-        
+        public async Task<Publicacion> GetPublicacionById(int id)
+        {
+            try
+            {
+                //de esta forma incluyo las relaciones de la publicacion, con el producto y del producto con la categoria
+                return await _context.Publicacion.Include(x => x.IdProductoNavigation).
+                ThenInclude(p => p.IdCategoriaNavigation).FirstOrDefaultAsync(x => x.IdPublicacion == id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
 
     }
 }

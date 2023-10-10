@@ -35,6 +35,12 @@ namespace BussinessLogic.Services
 
         }
 
+        public async Task<PublicacionDTO> GetPublicacionById(int id){
+            Publicacion publicacion = await _unitOfWork.PublicacionRepository.GetPublicacionById(id);
+            return publicacion.Adapt<PublicacionDTO>();
+
+        }
+
 
   
 

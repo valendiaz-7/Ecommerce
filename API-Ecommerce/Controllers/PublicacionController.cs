@@ -48,6 +48,37 @@ namespace API_Ecommerce.Controllers
 
         }
 
+        [HttpGet]
+        [Route("/publicacion/{id}")]
+        public async Task<ApiResponse> GetPublicacion(int id)
+        {
+            if (id == 0)
+            {
+                throw new ApiException("Debe ingresar un id de publicacion valido");
+            }
+
+            try
+            {
+                PublicacionDTO publicacion = await _service.GetPublicacionById(id);
+                if (publicacion == null)
+                {
+                    throw new ApiException("No se encontro la publicacion");
+                }
+
+                ApiResponse response = new ApiResponse(new { data = publicacion });
+                return response;
+            }
+            catch (Exception ex)
+            {
+                while (ex.InnerException != null)
+                {
+                    ex = ex.InnerException;
+                }
+                throw new ApiException(ex);
+            }
+
+        }
+
 
 
     }
