@@ -99,6 +99,8 @@ namespace BussinessLogic.Services
             if (categoria != null)
             {
                 categoria.FechaModificacion = DateTime.Now;
+                categoria.Descripcion = cate.Descripcion;
+                categoria.Nombre = cate.Nombre;
                 await _unitOfWork.CategoriaRepository.Update(categoria);
 
                 await _unitOfWork.CommitAsync();
