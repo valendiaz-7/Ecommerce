@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BussinessLogic.DTO;
+using BussinessLogic.DTO.Search;
 using BussinessLogic.Services;
 using Microsoft.AspNetCore.Mvc;
 using AutoWrapper.Wrappers;
+using DataAccess.Migrations;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -79,8 +81,35 @@ namespace API_Ecommerce.Controllers
 
         }
 
+        [HttpPost]
+        [Route("/publicacionesCarrito")]
+        public async Task<ApiResponse>PostPublicacionesCarrito([FromBody] List<SearchPublicacionCarritoDTO> publicacionCarrito)
+        {   
+            try
+            {
+                if (publicacionCarrito == null || publicacionCarrito.Count == 0)
+                {
+                    throw new ApiException("Carrito vacío");
+                }
+                List<PublicacionDTO> publicaciones = (await _service.GetPublicacionesCarrito(publicacionCarrito)).ToList();
+                ApiResponse response = new ApiResponse(new { data = publicaciones, cantidadPublicaciones = publicaciones.Count() });
+
+                return response;
+            }
+            catch (Exception ex)
+            {
+                while (ex.InnerException != null)
+                {
+                    ex = ex.InnerException;
+                }
+                throw new ApiException(ex);
+            }
+
+        }
+
 
 
     }
 }
+
 

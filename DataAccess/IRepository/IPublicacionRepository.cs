@@ -14,6 +14,8 @@ namespace DataAccess.IRepository
 
         Task<Publicacion> GetPublicacionById(int id);
 
+        Task<List<Publicacion>> GetPublicacionesCarrito(List<int> ids);
+
     } 
 
     

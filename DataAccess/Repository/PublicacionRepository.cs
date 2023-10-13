@@ -37,7 +37,16 @@ namespace DataAccess.Repository
             }
         }
 
-
-
+        public Task<List<Publicacion>> GetPublicacionesCarrito(List<int> ids)
+        {
+            try
+            {
+                return _context.Publicacion.Include(x => x.IdProductoNavigation).Where(x => ids.Contains(x.IdPublicacion)).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

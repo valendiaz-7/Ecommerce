@@ -5,6 +5,7 @@ using DataAccess.IRepository;
 using DataAccess.Entities;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
+using BussinessLogic.DTO.Search;
 
 namespace BussinessLogic.Services
 {
@@ -41,7 +42,11 @@ namespace BussinessLogic.Services
 
         }
 
-
+        public async Task<List<PublicacionDTO>> GetPublicacionesCarrito(List<SearchPublicacionCarritoDTO> publicacionCarrito){
+            List<int> ids = publicacionCarrito.Select(p => p.Id).ToList();
+            List<Publicacion> publicaciones = await _unitOfWork.PublicacionRepository.GetPublicacionesCarrito(ids);
+            return publicaciones.Adapt<List<PublicacionDTO>>();
+        }
   
 
     }
