@@ -83,7 +83,7 @@ namespace API_Ecommerce.Controllers
 
         [HttpPost]
         [Route("/publicacionesCarrito")]
-        public async Task<ApiResponse>PostPublicacionesCarrito([FromBody] List<SearchPublicacionCarritoDTO> publicacionCarrito)
+        public async Task<ApiResponse>GetPublicacionesCarrito([FromBody] List<SearchPublicacionCarritoDTO> publicacionCarrito)
         {   
             try
             {
@@ -92,7 +92,8 @@ namespace API_Ecommerce.Controllers
                     throw new ApiException("Carrito vacío");
                 }
                 List<PublicacionDTO> publicaciones = (await _service.GetPublicacionesCarrito(publicacionCarrito)).ToList();
-                ApiResponse response = new ApiResponse(new { data = publicaciones, cantidadPublicaciones = publicaciones.Count() });
+
+                ApiResponse response = new ApiResponse(new { data = publicaciones });
 
                 return response;
             }
@@ -106,6 +107,9 @@ namespace API_Ecommerce.Controllers
             }
 
         }
+
+
+        
 
 
 

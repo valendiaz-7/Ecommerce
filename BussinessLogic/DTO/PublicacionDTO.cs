@@ -12,6 +12,10 @@ namespace BussinessLogic.DTO
     public int Stock { get; set; }
     public ProductoDTO IdProductoNavigation { get; set; } = null!; 
 
+
+    //esta cantidad es para que pueda viajar la cantidad de producto que tiene el carrito al front
+    public int Cantidad { get; set; }
+
     }
 }
 

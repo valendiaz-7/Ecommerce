@@ -36,7 +36,8 @@ namespace BussinessLogic.Services
 
         }
 
-        public async Task<PublicacionDTO> GetPublicacionById(int id){
+        public async Task<PublicacionDTO> GetPublicacionById(int id)
+        {
             Publicacion publicacion = await _unitOfWork.PublicacionRepository.GetPublicacionById(id);
             return publicacion.Adapt<PublicacionDTO>();
 
@@ -44,10 +45,36 @@ namespace BussinessLogic.Services
 
         public async Task<List<PublicacionDTO>> GetPublicacionesCarrito(List<SearchPublicacionCarritoDTO> publicacionCarrito){
             List<int> ids = publicacionCarrito.Select(p => p.Id).ToList();
-            List<Publicacion> publicaciones = await _unitOfWork.PublicacionRepository.GetPublicacionesCarrito(ids);
-            return publicaciones.Adapt<List<PublicacionDTO>>();
+            List<PublicacionDTO> publicaciones = (await _unitOfWork.PublicacionRepository.GetPublicacionesCarrito(ids)).Adapt<List<PublicacionDTO>>();
+
+            foreach (var publicacion in publicaciones)
+            {
+                publicacion.Cantidad = publicacionCarrito.Where(p => p.Id == publicacion.IdPublicacion).FirstOrDefault().Cantidad;
+            }
+
+            return publicaciones;
+
+
         }
-  
+
+        // public async Task<List<PublicacionDTO>> GetPublicacionesCarrito(List<SearchPublicacionCarritoDTO> publicacionCarrito)
+        // {
+        //     List<int> ids = publicacionCarrito.Select(p => p.Id).ToList();
+        //     List<Publicacion> publicaciones = await _unitOfWork.PublicacionRepository.GetPublicacionesCarrito(ids);
+        //     List<PublicacionDTO> publicacionesDTO = publicaciones.Adapt<List<PublicacionDTO>>();
+
+        //     foreach (var pub in publicacionesDTO)
+        //     {
+        //         var itemCarrito = publicacionCarrito.FirstOrDefault(p => p.Id == pub.IdPublicacion);
+        //         if (itemCarrito != null)
+        //         {
+        //             pub.Cantidad = itemCarrito.Cantidad;
+        //         }
+        //     }
+
+        //     return publicacionesDTO;
+        // }
+
 
     }
 }
