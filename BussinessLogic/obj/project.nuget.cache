@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OgEjBWJuzftZM9XGtjBQJEEX11HtLPdoCiX+WNaBBP5mqkRWYy4cVa9A7UCZHbk7u9kknphNDT8pU0qXdyDtMw==",
+  "dgSpecHash": "kGRHQTfeND3ICp48wiPmW4/kjScBWEKE/jc18nD8bRi5qSB3h7WbNnliMfCUfZLSkVliALF/xzGStWRVRuHfiw==",
   "success": true,
-  "projectFilePath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/BussinessLogic/BussinessLogic.csproj",
+  "projectFilePath": "/Users/germansalinas/Proyectos/DesarrolloDeSoftware/Ecommerce-server/BussinessLogic/BussinessLogic.csproj",
   "expectedPackageFiles": [
     "/Users/germansalinas/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",
     "/Users/germansalinas/.nuget/packages/k4os.compression.lz4/1.3.5/k4os.compression.lz4.1.3.5.nupkg.sha512",

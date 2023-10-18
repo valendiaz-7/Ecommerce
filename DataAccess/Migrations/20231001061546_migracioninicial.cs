@@ -11,7 +11,44 @@ namespace DataAccess.Migrations
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
-        {
+        {   
+            migrationBuilder.DropTable(
+                name: "__EFMigrationsHistory");
+
+            migrationBuilder.DropTable(
+                name: "envio");
+
+            migrationBuilder.DropTable(
+                name: "domicilio");
+
+            migrationBuilder.DropTable(
+                name: "pedido");
+
+            migrationBuilder.DropTable(
+                name: "estadopedido");
+
+            migrationBuilder.DropTable(
+                name: "publicacion");
+
+            migrationBuilder.DropTable(
+                name: "sucursal");
+
+            migrationBuilder.DropTable(
+                name: "usuario");
+
+            migrationBuilder.DropTable(
+                name: "estadopublicacion");
+
+            migrationBuilder.DropTable(
+                name: "producto");
+
+            migrationBuilder.DropTable(
+                name: "rol");
+
+            migrationBuilder.DropTable(
+                name: "categoria");
+
+
             migrationBuilder.AlterDatabase()
                 .Annotation("MySQL:Charset", "utf8mb4");
 

@@ -26,10 +26,13 @@ namespace DataAccess.Repository
 
             ProductoRepository = new ProductoRepository(_context);
             CategoriaRepository = new CategoriaRepository(_context);
+            PublicacionRepository = new PublicacionRepository(_context);
         }
 
         public IProductoRepository ProductoRepository { get; set; }
         public ICategoriaRepository CategoriaRepository { get; set; }
+        public IPublicacionRepository PublicacionRepository { get; set; }
+        
 
         public async Task BeginTransactionAsync()
         {

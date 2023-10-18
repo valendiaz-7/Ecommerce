@@ -3,10 +3,16 @@ using DataAccess.Repository;
 using DataAccess.Entities;
 using DataAccess.IRepository;
 using Microsoft.EntityFrameworkCore;
+using Keycloak.AuthServices.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var host = builder.Host;
+var configuration = builder.Configuration;
+
 // Add services to the container.
+
+builder.Services.AddKeycloakAuthentication(configuration);
 
 builder.Services.AddControllers();
 
@@ -27,7 +33,9 @@ builder.Services.AddDbContext<EcommercedbContext>(options => options.UseMySQL(bu
 //La diferencia entre AddScoped y AddTransient es que el AddScoped crea un contexto por cada request y el AddTransient crea un contexto por cada vez que se lo llama
 //El AddSingleton es para que se cree un contexto por una unica vez y se reutilice en todos los request
 
-builder.Services.AddScoped<ServicePrueba>();
+builder.Services.AddScoped<ServiceCategoria>();
+builder.Services.AddScoped<ServiceProducto>();
+builder.Services.AddScoped<ServicePublicacion>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
@@ -74,9 +82,14 @@ app.UseCors("politica");
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
+app.MapGet("/", () => "Hello World!");
+
 
 app.Run();
 

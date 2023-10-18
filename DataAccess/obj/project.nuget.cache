@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JpRbbuY3uH+lX/2v2Uy6OVPWYyHg9mtNlm4Cc2lrLAg0VaxjE2w5T2uib7etUVcZH3AS2+gSRsefab9Ve3TZqg==",
+  "dgSpecHash": "VeWMNcGQCwBHC1gm2JMn9OuGZ9cjtWI6IEvIDUb9EpMAcuQvAc4hTKwQVACNBWkU7R8Pe567QBM/cVAQ/gnIMw==",
   "success": true,
-  "projectFilePath": "/Users/germansalinas/Documents/Ingenieria En Sistemas/3er Año/Desarrollo de Software/Ecommerce-Server/DataAccess/DataAccess.csproj",
+  "projectFilePath": "/Users/germansalinas/Proyectos/DesarrolloDeSoftware/Ecommerce-server/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/germansalinas/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",
     "/Users/germansalinas/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

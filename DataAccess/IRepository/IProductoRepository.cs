@@ -16,6 +16,8 @@ namespace DataAccess.IRepository
         // Task<IEnumerable<Producto>> GetByPrecio(decimal precio);
         // Task<IEnumerable<Producto>> GetByPrecio(decimal precioMin, decimal precioMax);
         // Task<IEnumerable<Producto>> GetByNombre(string nombre);
+
+        Task<IList<Producto>> GetProductoCategoria();
         
         // //el guid es para que el repositorio de cada entidad tenga un identificador unico
 

@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using DataAccess.IRepository;
 using DataAccess.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Repository
 {
@@ -11,6 +9,20 @@ namespace DataAccess.Repository
     {
         public ProductoRepository(EcommercedbContext context) : base(context)
         {
+        }
+
+        public async Task<IList<Producto>> GetProductoCategoria()
+        {
+            try
+            {
+                return await _context.Producto.Include(c => c.IdCategoriaNavigation).ToListAsync();
+
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         // public IList<Producto> GetProductosByCategoria(int idCategoria)
@@ -43,6 +55,6 @@ namespace DataAccess.Repository
         //     return _context.Productos.Where(p => p.Precio == precio && p.idCategoria == idCategoria).ToList();
         // }
 
-        
+
     }
 }

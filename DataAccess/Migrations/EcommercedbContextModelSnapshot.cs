@@ -32,6 +32,19 @@ namespace DataAccess.Migrations
                         .HasColumnType("varchar(45)")
                         .HasColumnName("descripcion");
 
+                    b.Property<DateTime>("FechaDesde")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("FechaHasta")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("FechaModificacion")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.HasKey("IdCategoria")
                         .HasName("PRIMARY");
 
@@ -219,9 +232,25 @@ namespace DataAccess.Migrations
                         .HasColumnType("varchar(45)")
                         .HasColumnName("descripcion");
 
+                    b.Property<DateTime>("FechaAlta")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("FechaBaja")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("FechaModificacion")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("IdCategoria")
                         .HasColumnType("int")
                         .HasColumnName("id_categoria");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("UrlImagen")
+                        .HasColumnType("longtext");
 
                     b.HasKey("IdProducto")
                         .HasName("PRIMARY");
