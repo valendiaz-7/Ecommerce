@@ -8,6 +8,7 @@ using BussinessLogic.Services;
 using Microsoft.AspNetCore.Mvc;
 using AutoWrapper.Wrappers;
 using DataAccess.Migrations;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -27,9 +28,15 @@ namespace API_Ecommerce.Controllers
         }
         // GET: api/values
 
+
+
+
         //Metodo para traer todas las categorias
         [HttpGet]
         [Route("/publicaciones")]
+
+        //ESTO ESTA FUNCIONANDO!!!!!!!!!!!!!
+        [Authorize(Roles = "administrador")]
         public async Task<ApiResponse> GetPublicaciones()
         {
             try
