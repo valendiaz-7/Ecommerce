@@ -36,7 +36,7 @@ namespace API_Ecommerce.Controllers
         [Route("/publicaciones")]
 
         //ESTO ESTA FUNCIONANDO!!!!!!!!!!!!!
-        [Authorize(Roles = "administrador")]
+        // [Authorize(Roles = "administrador")]
         public async Task<ApiResponse> GetPublicaciones()
         {
             try
